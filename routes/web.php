@@ -19,7 +19,7 @@ Route::get('/', function () {
     ]);
 })->name('home');
 Route::get('/comics', function () {
-    $comics = config('comic');
+    $comics = config('comics');
     return view('guest.comics', [
         'menu'  => config('menu'),
         'comics' => $comics,
