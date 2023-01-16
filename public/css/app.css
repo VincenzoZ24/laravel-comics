@@ -33,3 +33,9 @@ header {
 img {
   width: 100%;
 }
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
