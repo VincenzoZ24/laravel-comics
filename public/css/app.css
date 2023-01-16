@@ -1,1 +1,35 @@
+.logo {
+  width: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 
+nav {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+.list li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+}
+
+.contents {
+  width: calc((1200px - 11rem) / 6);
+  color: rgb(8, 8, 8);
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}

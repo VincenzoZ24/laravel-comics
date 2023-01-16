@@ -1,4 +1,4 @@
 <header>
-   <img src="{{ asset('image/dc-logo.png') }}" alt="Logo">
+   <img class="logo" src="{{ asset('images/dc-logo.png') }}" alt="Logo">
    @include('guest.partials.nav')
 </header>
